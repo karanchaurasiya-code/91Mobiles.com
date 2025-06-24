@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<!-- Categories Header Section -->
+<section class="py-5 bg-dark text-white text-center">
+  <div class="container px-5">
+    <h1 class="display-4 fw-bold">Shop by Category</h1>
+    <p class="lead text-white-50">Explore what suits your vibe at <strong>PureVibe.com</strong></p>
+  </div>
+</section>
+
+<!-- Categories Grid -->
+<section class="py-5">
+  <div class="container px-5">
+    <div class="row gx-4 gy-4">
+      {% for category in categories %}
+      <div class="col-md-4">
+        <div class="border rounded text-center p-4 shadow-sm bg-light h-100">
+          <h4 class="mb-0">
+            <a href="{% url 'category' category %}" class="text-decoration-none text-dark">
+              {{ category }}
+            </a>
+          </h4>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% endblock %}
