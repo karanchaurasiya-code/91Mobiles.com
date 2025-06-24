@@ -19,20 +19,17 @@ This is a Django-based e-commerce website project designed to simulate a mobile 
 ## 🖼️ Screenshots
 
 ### 🏠 Home Page
-![Home Page](screenshots/home.png)
+![Home Page](screenshots/home.png.png)
 
 ### 📱 Product Detail
-![Product Page](screenshots/product.png)
+![Product Page](screenshots/2.png.png)
 
 ### 🛒 Cart Page
-![Cart Page](screenshots/cart.png)
+![Cart Page](screenshots/cart.png.png)
 
-> To include screenshots:
-> 1. Create a folder named `screenshots` inside your project root.
-> 2. Save images like `home.png`, `product.png`, `cart.png`.
-> 3. Use `![Alt Text](screenshots/image_name.png)` in README.
-
----
+### other Screenshot
+![Cart Page](screenshots/category.png.png)
+![register Page](screenshots/register.png.png)
 
 ## 🛠️ Tech Stack
 
@@ -45,6 +42,16 @@ This is a Django-based e-commerce website project designed to simulate a mobile 
 ---
 
 ## 🚀 Setup Instructions
+  bash
+- python -m venv env
+- source env/bin/activate  # On Windows use: env\Scripts\activate
+- pip install -r requirements.txt
+- python manage.py migrate
+- python manage.py createsuperuser
+- python manage.py runserver
+- Visit http://127.0.0.1:8000 in your browser.
+
+
 
 ### 1. Clone the repository
 
