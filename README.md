@@ -56,5 +56,5 @@ This is a Django-based e-commerce website project designed to simulate a mobile 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone
+https://github.com/karanchaurasiya-code/91Mobiles.com.git
